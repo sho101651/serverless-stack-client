@@ -6,6 +6,7 @@ import Nav from "react-bootstrap/Nav";
 import { LinkContainer } from "react-router-bootstrap";
 import { AppContext } from "./libs/contextLib";
 import { Auth } from "aws-amplify";
+import { onError } from "./libs/errorLib";
 import { useHistory } from "react-router-dom";
 
 function App() {
